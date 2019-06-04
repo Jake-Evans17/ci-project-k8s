@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-        name: session-token-deployment
+        name: session-token-service
         labels:
                 app: session-token-service
 spec:

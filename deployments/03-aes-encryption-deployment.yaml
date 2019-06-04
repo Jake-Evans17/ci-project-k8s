@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-        name: aes-encryption-deplyment
+        name: aes-encryption-service
         labels:
                 app: aes-encryption-service
 spec:

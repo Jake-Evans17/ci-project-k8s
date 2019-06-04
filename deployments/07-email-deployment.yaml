@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-        name: email-deployment
+        name: email-service
         labels:
                 app: email-service
 spec:

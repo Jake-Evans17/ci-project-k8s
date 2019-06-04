@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-        name: role-deployment
+        name: role-service
         labels:
                 app: role-service
 spec:
