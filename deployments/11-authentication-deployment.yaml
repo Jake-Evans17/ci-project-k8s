@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: authentication-deployment
+        labels:
+                app: authentication-service
+spec:
+        replicas: 1
+        selector:
+                matchLabels:
+                        app: authentication-service
+        template:
+                metadata:
+                        labels:
+                                app: authentication-service
+                spec:
+                        containers:
+                        - name: authentication-service
+                          image: jakeevans17/authentication-service
+                          env:
+                                  - name: ACTIVATION_LINK
+                                    value: https://${host_ip}/authentication/api/activate
+                          ports:
+                          - containerPort: 3000
