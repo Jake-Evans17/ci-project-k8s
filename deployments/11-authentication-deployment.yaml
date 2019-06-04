@@ -19,6 +19,6 @@ spec:
                           image: jakeevans17/authentication-service
                           env:
                                   - name: ACTIVATION_LINK
-                                    value: https://34.90.224.122/authentication/api/activate
+                                    value: https://35.204.133.217/authentication/api/activate
                           ports:
                           - containerPort: 3000
