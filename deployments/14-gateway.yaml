@@ -18,4 +18,4 @@ spec:
                         - name: gateway
                           image: jakeevans17/gateway
                           ports:
-                          - containerPort: 3000
+                          - containerPort: 80

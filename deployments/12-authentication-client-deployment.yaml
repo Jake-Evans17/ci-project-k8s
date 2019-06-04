@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-        name: authentication-client-deployment
+        name: authentication-client
         labels:
                 app: authentication-client
 spec:
