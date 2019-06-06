@@ -6,6 +6,8 @@ To deploy an application that allows users to create an account, verify that acc
 
 ## 1. Architecture
 
+![component-diagram](https://github.com/Jake-Evans17/ci-project-k8s/blob/master/Untitled%20Diagram%20(1).jpg)
+
 Micro-Services:
 * Gateway
 * 2 clients for front-end web pages, written in VueJS
