@@ -8,9 +8,9 @@ To deploy an application that allows users to create an account, verify that acc
 
 Micro-Services:
 * Gateway
-* 2 clients for front-end web pages
-* 10 services - back-end APIs
-* Database - mongo
+* 2 clients for front-end web pages, written in VueJS
+* 10 services - back-end APIs, written in nodeJS
+* Mongo database
 
 ## How to Run
 
