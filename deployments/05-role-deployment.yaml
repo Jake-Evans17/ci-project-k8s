@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: role-service
-                          image: jakeevans17/role-service
+                          image: ${DOCKER_USER}/role-service
                           ports:
                           - containerPort: 3000
