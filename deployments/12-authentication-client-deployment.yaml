@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: authentication-client
-                          image: jakeevans17/authentication-client
+                          image: ${DOCKER_USER}/authentication-client
                           ports:
                           - containerPort: 8080
