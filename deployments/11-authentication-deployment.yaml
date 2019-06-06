@@ -16,7 +16,7 @@ spec:
                 spec:
                         containers:
                         - name: authentication-service
-                          image: jakeevans17/authentication-service
+                          image: ${DOCKER_USER}/authentication-service
                           env:
                                   - name: ACTIVATION_LINK
                                     value: https://35.204.133.217/authentication/api/activate
