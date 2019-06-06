@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: dashboard-service
-                          image: jakeevans17/dashboard-service
+                          image: ${DOCKER_USER}/dashboard-service
                           ports:
                           - containerPort: 3000
