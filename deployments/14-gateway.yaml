@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: gateway
-                          image: jakeevans17/gateway
+                          image: ${DOCKER_USER}/gateway
                           ports:
                           - containerPort: 80
