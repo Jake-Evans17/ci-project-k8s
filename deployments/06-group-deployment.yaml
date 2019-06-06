@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: group-service
-                          image: jakeevans17/group-service
+                          image: ${DOCKER_USER}/group-service
                           ports:
                           - containerPort: 3000
