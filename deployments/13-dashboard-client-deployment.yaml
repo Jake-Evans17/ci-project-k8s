@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: dashboard-client
-                          image: jakeevans17/dashboard-client
+                          image: ${DOCKER_USER}/dashboard-client
                           ports:
                           - containerPort: 8080
