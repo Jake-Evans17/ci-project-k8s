@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: session-token-service
-                          image: jakeevans17/session-token-service
+                          image: ${DOCKER_USER}/session-token-service
                           ports:
                           - containerPort: 3000
