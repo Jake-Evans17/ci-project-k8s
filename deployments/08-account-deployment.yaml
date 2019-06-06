@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: account-service
-                          image: jakeevans17/account-service
+                          image: ${DOCKER_USER}/account-service
                           ports:
                           - containerPort: 3000
