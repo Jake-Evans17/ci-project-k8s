@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: aes-encryption-service
-                          image: jakeevans17/aes-encryption-service
+                          image: ${DOCKER_USER}/aes-encryption-service
                           ports:
                           - containerPort: 3000
