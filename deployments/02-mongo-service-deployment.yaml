@@ -16,6 +16,6 @@ spec:
                 spec:
                         containers:
                         - name: mongo-service
-                          image: jakeevans17/mongo-service
+                          image: ${DOCKER_USER}/mongo-service
                           ports:
                           - containerPort: 3000
